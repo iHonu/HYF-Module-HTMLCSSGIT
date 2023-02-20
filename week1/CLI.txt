@@ -1,0 +1,5 @@
+1. Add . before the file or folder name. To see hidden file or folder and -a after ls. 
+2. Add -p after mkdir and then the multiple nested directories.
+3. touch text.txt 
+echo "first message" > text.txt
+echo "second message" >> text.txt
