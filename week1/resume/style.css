@@ -96,7 +96,6 @@ header {
   padding: 3px 6px;
   border: 2px solid var(--black-color);
   box-shadow: 2px 3px 0px 1px var(--black-color);
-  outline: none;
 }
 
 .social-link a:hover {
@@ -135,7 +134,6 @@ header {
 }
 
 .about-container {
-  max-width: 100%;
   background: var(--black-color);
 }
 
@@ -171,10 +169,6 @@ header {
   bottom: -8px;
   z-index: -1;
 }
-
-/* .stats p {
-  color: #f45d48;
-} */
 
 .experience {
   display: flex;
