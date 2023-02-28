@@ -481,6 +481,11 @@ input[type='password'] {
   background-color: var(--color-white);
 }
 
+.tabs-card:hover {
+  transform: translateX(4px);
+  box-shadow: -6px 6px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
 .tabs-card .mono-text {
   background-color: var(--color-light-gree);
 }
