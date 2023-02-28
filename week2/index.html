@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-links">
+          <a href="https://www.codecademy.com/">
+            <svg width="135" height="54">
+              <image xlink:href="./img/codecademy.svg" />
+            </svg>
+          </a>
+          <div class="dropdown">
+            <button class="drop-btn">
+              Catalog
+              <span class="material-symbols-sharp arrow">
+                arrow_drop_down
+              </span>
+            </button>
+            <div class="dropdown-content-big">
+              <div class="grid">
+                <div class="one dark">
+                  <h3>Popular course topics</h3>
+                  <p>Explore free or paid courses in topics that interest you.</p>
+                  <a href="#" class="yellow-btn-nav">Explore all courses</a>
+                </div>
+                <div class="two white">
+                  <ul>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">HTML & CSS</a></li></li>
+                    <li><a href="#">SQL</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">C++</a></li>
+                  </ul>
+                </div>
+                <div class="three white">
+                  <ul>
+                    <li><a href="#">C#</a></li>
+                    <li><a href="#">Bash</a></li>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">R</a></li>
+                    <li><a href="#">Swift</a></li>
+                  </ul>
+                </div>
+                <div class="four white">
+                  <ul>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Computer Science</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Cybersecurity</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                  </ul>
+                </div>
+                <div class="one dark">
+                  <h3>Top career paths</h3>
+                  <p>Choose your career. We'll teach you the skills to get job-ready.</p>
+                </div>
+                <div class="two white">
+                  <ul>
+                    <li><a href="#">Full-Stack Engineer</a></li>
+                    <li><a href="#">Front-End Engineer</a></li>
+                  </ul>
+                </div>
+                <div class="three white">
+                  <ul>
+                    <li><a href="#">Back-End Engineer</a></li>
+                    <li><a href="#">Computer Science</a></li>
+                  </ul>
+                </div>
+                <div class="four white">
+                  <ul>
+                    <li><a href="#">iOS Developer</a></li>
+                    <li><a href="#">Data Scientist</a></li>
+                  </ul>
+                </div>
+                <div class="big">
+                  <p>Not sure where to begin?</p>
+                  <a href="#">Take our quiz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="drop-btn">
+              Resource
+              <span class="material-symbols-sharp arrow">
+                arrow_drop_down
+              </span>
+            </button>
+            <div class="dropdown-content-big">
+              <div class="grid">
+                <div class="one dark">
+                  <h3>Docs</h3>
+                  <p>Find definitions, code syntax, and more -- or contribute your own code documentation.</p>
+                  <a href="#" id="yellow-link-nav">View all docs</a>
+                </div>
+                <div class="two white">
+                  <ul>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">C++</a></li>
+                    <li><a href="#">CSS</a></li></li>
+                    <li><a href="#">Git</a></li>
+                  </ul>
+                </div>
+                <div class="three white">
+                  <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">PHP</a></li>
+                  </ul>
+                </div>
+                <div class="four white">
+                  <ul>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">React</a></li>
+                    <li><a href="#">SQL</a></li>
+                    <li><a href="#">UI/UX</a></li>
+                  </ul>
+                </div>
+                <div class="one dark">
+                  <h3>Learning & practice tools</h3>
+                </div>
+                <div class="two white">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p><strong>Article</strong> </p>
+                        <p class="small-text">Learn about technical concepts.</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p class="lable-new"><strong>Projects</strong></p>
+                        <p class="small-text">Practice and build your portfolio.</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="three white">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p><strong>Cheatsheets</strong></p>
+                        <p class="small-text">Review concepts from your courses.</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p><strong>Videos</strong></p>
+                        <p class="small-text">Watch tutorials, projects and more.</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="four white">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p><strong>Code challenges</strong></p>
+                        <p class="small-text">Test you knowledge and prep for interview.</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <p><strong>Workspaces</strong></p>
+                        <p class="small-text">Build and share projects in our browser.</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="one dark">
+                  <h3>Inspiration</h3>
+                  <a href="#" id="yellow-link-nav" >View all topics</a>
+                </div>
+                <div class="two white">
+                      <a href="#">
+                        <p><strong>Career advice</strong></p>
+                        <p class="small-text">Get answers to questions about coding careers.</p>
+                      </a>
+                </div>
+                <div class="three white">
+                  <a href="#">
+                    <p><strong>Learning tips</strong></p>
+                    <p class="small-text">Learn where to start and how to stay motivated.</p>
+                  </a>
+                </div>
+                <div class="four white"></div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="drop-btn">
+              Community
+              <span class="material-symbols-sharp arrow">
+                arrow_drop_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Forums</a>
+              <a href="#">Discord</a>
+              <a href="#">Chapter</a>
+              <a href="#">Events</a>
+              <a href="#">Learner Stories</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="drop-btn">
+              Pricing
+              <span class="material-symbols-sharp arrow">
+                arrow_drop_down
+              </span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">For Individuals</a>
+              <a href="#">For Students</a>
+              <a href="#">For Team</a>
+            </div>
+          </div>
+          <a href="#" class="big-menu"><button>Business Solutions</button></a>
+        </div>
+        <div class="nav-items">
+          <div class="search big-menu">
+            <span class="material-symbols-sharp arrow"> search </span>
+          </div>
+          <div class="login">
+            <a href="google.com"><button>Log In</button></a>
+          </div>
+          <div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-lable">
+              <span></span>
+            </label>
+            <div class="small-menu">
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="hero-section">
+        <div class="two-column-grid">
+          <div class="hero-image">
+            <img src="./img/hero_img.webp" alt="happy woman">
+            <div class="svg-hero-container"></div>
+          </div>
+          <div class="hero-content">
+            <h1>Join the millions learning to code with Codecademy for free</h1>
+            <div class="signup-form">
+               <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" autocomplete="current-password">
+            <button type="submit" class="submit-btn">Sign Up</button>
+            </div>
+            <p class="small-text ">By signing up for Codecademy, you agree to Codecademy's 
+              <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a>.</p>
+            <p><b>Or sign up using:</b></p>
+            <div class="social-icons">
+              <a href="#" class="social-icon-container"><img src="./img/linkedin-24.png" alt="linkedin"></a>
+              <a href="#" class="social-icon-container"><img src="./img/google-24.png" alt="google"></a>
+              <a href="#" class="social-icon-container"><img src="./img/facebook-24.png" alt="facebook"></a>
+              <a href="#" class="social-icon-container"><img src="./img/github-24.png" alt="github"></a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="popular-courses">
+        <div class="popular-courses-header">
+          <p class="mono-text">Start Learning</p>
+          <h2>Popular Courses</h2>
+        </div>
+        <div class="popular-courses-tab">
+          <div class="popular-courses-background"></div>
+          <input type="radio" class="radio-tabs" name="tab" id="tab1" checked />
+          <label for="tab1" class="tabs-lable">Free</label>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn JavaScript</p>
+              <p class="small-text">
+                Learn how to use JavaScript — a powerful and flexible programming
+                language for adding website interactivity.
+              </p>
+              <div class="tabs-card-footer small-text">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>11</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn HTML</p>
+              <p class="small-text">
+                Start at the beginning by learning HTML basics — an important
+                foundation for building and editing web pages.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn SQL</p>
+              <p class="small-text">
+                In this SQL course, you will learn how to manage large datasets
+                and analyze real data using the standard data management language.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn Java Introduction</p>
+              <p class="small-text">
+                Get started with Java by learning about the basics of a Java
+                program and variables!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>3</b> Lessons</p>
+              </div>
+            </div>
+          </div>
+          <input type="radio" class="radio-tabs" name="tab" id="tab2" />
+          <label for="tab2" class="tabs-lable">New to coding</label>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Choosing a Programming Language</p>
+              <p class="small-text">
+                This course will introduce learners to factors to consider when
+                picking a first language as well as describe some popular options.
+              </p>
+              <div class="tabs-card-footer small-text">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>11</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Choosing a Career in Tech</p>
+              <p class="small-text">
+                Share you feeling confused about where to aim for with your career
+                goals? Take this course to learn about different career options!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn to Code with Blockly</p>
+              <p class="small-text">
+                Want to learn how to get started with programming in an
+                interactive way? Try our drag and drop code lessons!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Welcome to Codecademy</p>
+              <p class="small-text">
+                First time on our site? Start here to learn how to use our
+                platform.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>3</b> Lessons</p>
+              </div>
+            </div>
+          </div>
+          <input type="radio" class="radio-tabs" name="tab" id="tab3" />
+          <label for="tab3" class="tabs-lable">Most popular</label>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn Python 3</p>
+              <p class="small-text">
+                This course will introduce learners to factors to consider when
+                picking a first language as well as describe some popular options.
+              </p>
+              <div class="tabs-card-footer small-text">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>11</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn JavaScript</p>
+              <p class="small-text">
+                Share you feeling confused about where to aim for with your career
+                goals? Take this course to learn about different career options!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn HTML</p>
+              <p class="small-text">
+                Want to learn how to get started with programming in an
+                interactive way? Try our drag and drop code lessons!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Learn C++</p>
+              <p class="small-text">
+                First time on our site? Start here to learn how to use our
+                platform.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>3</b> Lessons</p>
+              </div>
+            </div>
+          </div>
+          <input type="radio" class="radio-tabs" name="tab" id="tab4" />
+          <label for="tab4" class="tabs-lable">Skill paths</label>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">
+                Build a Website with HTML, CSS and GitHub Pages
+              </p>
+              <p class="small-text">
+                This course will introduce learners to factors to consider when
+                picking a first language as well as describe some popular options.
+              </p>
+              <div class="tabs-card-footer small-text">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>11</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Analyze Data with SQL</p>
+              <p class="small-text">
+                Share you feeling confused about where to aim for with your career
+                goals? Take this course to learn about different career options!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Data Science Foundations</p>
+              <p class="small-text">
+                Want to learn how to get started with programming in an
+                interactive way? Try our drag and drop code lessons!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Create a Front-End App with React</p>
+              <p class="small-text">
+                First time on our site? Start here to learn how to use our
+                platform.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>3</b> Lessons</p>
+              </div>
+            </div>
+          </div>
+          <input type="radio" class="radio-tabs" name="tab" id="tab5" />
+          <label for="tab5" class="tabs-lable">Career paths</label>
+          <div class="tabs-content">
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Front-End Engineer</p>
+              <p class="small-text">
+                This course will introduce learners to factors to consider when
+                picking a first language as well as describe some popular options.
+              </p>
+              <div class="tabs-card-footer small-text">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>11</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Full-Stack Engineer</p>
+              <p class="small-text">
+                Share you feeling confused about where to aim for with your career
+                goals? Take this course to learn about different career options!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Computer Science</p>
+              <p class="small-text">
+                Want to learn how to get started with programming in an
+                interactive way? Try our drag and drop code lessons!
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>6</b> Lessons</p>
+              </div>
+            </div>
+            <div class="tabs-card">
+              <p class="mono-text">Free course</p>
+              <p class="big-text">Data Scientist: Machine Learning Specialist</p>
+              <p class="small-text">
+                First time on our site? Start here to learn how to use our
+                platform.
+              </p>
+              <div class="tabs-card-footer">
+                <p><b>Beginner</b> Friendly</p>
+                <p><b>3</b> Lessons</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="yellow-btn-nav">Explore full catalog</a>
+      </section>
+      <section class="start-coding">
+        <div class="flex-odd-container">
+          <div class="stat-coding-image">
+            <img src="./img/code-example.png" alt="some code">
+          </div>
+          <div class="start-coding-text">
+            <p class="mono-text">Beginers welcome</p>
+            <h2>Start coding in seconds</h2>
+            <p>Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson.</p>
+            <div start-coding-btn>
+              <a href="#" class="border-btn">Continue lesson</a>
+              <a href="#" class="hidden-btn">More beginner courses</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="not-sure">
+        <div class="flex-even-container">
+          <div class="flex-text-area">
+            <h2>Not sure where to start?</h2>
+            <p>This short quiz will sort you out. Answer a few simple questions to get personal career advice and course recommendations.</p>
+            <a href="" class="blue-btn">Take the quiz</a>
+          </div>
+          <div class="flex-image-container">
+            <img src="./img/window.svg" alt="window">
+          </div>
+        </div>
+      </section>
+      <section class="start-for-free">
+        <dvi class="flex-even-container">
+          <div class="flex-image-container">
+            <picture>
+              <source media="(max-width: 480px)" srcset="./img/1woman.webp">
+              <img src="./img/2woman.webp" alt="two woman looking into a laptop">
+            </picture>
+            
+          </div>
+          <div class="flex-text-area">
+            <h2>Start for free</h2>
+            <p>If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.</p>
+            <a href="" class="yellow-btn-nav">Take the quiz</a>
+          </div>
+        </dvi>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <div class="f-grid-one">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Affiliates</a></li>
+          </ul>
+          <div class="footer-social-icons">
+            <a href="#"><img src="./img/twitter-30.png" alt="twitter icon"></a>
+            <a href="#"><img src="./img/icons8-facebook-f-16.png" alt="facebook icon"></a>
+            <a href="#"><img src="./img/icons8-instagram-old-32.png" alt="instagram icon"></a>
+            <a href="#"><img src="./img/icons8-youtube-logo-24.png" alt="youtube logo"></a>
+          </div>
+          <img src="./img/codecademy.svg" alt="codecademy logo" class="codecademy-footer-logo">
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Article</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Cheatsheets</a></li>
+            <li><a href="#">Code challenges</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Workspaces</a></li>
+          </ul>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Plans</h4>
+          <ul>
+            <li><a href="#">Paid memberships</a></li>
+            <li><a href="#">For students</a></li>
+            <li><a href="#">Business solutions</a></li>
+          </ul>
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Chapters</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Discord</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Subjects</h4>
+          <ul>
+            <li><a href="#">AI</a></li>
+            <li><a href="#">Cloud Computing</a></li>
+            <li><a href="#">Computer Science</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Data Analytics</a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Data Visualization</a></li>
+            <li><a href="#">Developer tools</a></li>
+            <li><a href="#">DevOps</a></li>
+            <li><a href="#">Game Development</a></li>
+            <li><a href="#">IT</a></li>
+            <li><a href="#">Machine Learning</a></li>
+            <li><a href="#">Math</a></li>
+            <li><a href="#">Mobile Development</a></li>
+            <Li><a href="#">Web Design</a></Li>
+            <li><a href="#">Web Development</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <ul>
+            <li><a href="#">Bash</a></li>
+            <li><a href="#">C</a></li>
+            <li><a href="#">C++</a></li>
+            <li><a href="#">C#</a></li>
+            <li><a href="#">Go</a></li>
+            <li><a href="#">HTML & CSS</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Kotlin</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">R</a></li>
+            <li><a href="#">Ruby</a></li>
+            <li><a href="#">SQL</a></li>
+            <li><a href="#">Swift</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Career builder</h4>
+          <ul>
+            <li><a href="#">Career paths</a></li>
+            <li><a href="#">Career service</a></li>
+            <li><a href="#">Interview prep</a></li>
+            <li><a href="#">Professional certification</a></li>
+            <li><a href="#">-</a></li>
+            <li><a href="#">Full Catalog</a></li>
+            <li><a href="#">Beta Content</a></li>
+            <li><a href="#">Roadmap</a></li>
+          </ul>
+          <h4>Mobile</h4>
+          <a href="#"><img src="./img/app-store-png-logo-33123.png" alt="download app" class="download-app"></a>
+        </div>
+      </div>
+      <div class="final-line">
+        <div class="final-policy">
+          <a href="#" class="small-text">Privacy Policy</a>
+          <a href="#" class="small-text">Cookie Policy</a>
+          <a href="#" class="small-text">Do Not Sell My Personal Information</a>
+          <a href="#" class="small-text">Terms</a>
+        </div>
+        <div>
+          <p class="small-text">Made with ❤️ in NYC &copy; 2023 Codecademy</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
