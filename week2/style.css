@@ -446,6 +446,10 @@ input[type='password'] {
 
 /* POPULAR SECTION */
 
+.lable-text .arrow-mobile {
+  display: none;
+}
+
 .popular-courses {
   display: flex;
   flex-direction: column;
@@ -820,5 +824,41 @@ footer a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .tabs-content {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .tabs-lable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    padding-top: 2rem;
+  }
+
+  .start-coding::before {
+    display: none;
+  }
+
+  .radio-tabs:checked + .tabs-lable {
+    border-bottom: none;
+    padding-top: 1rem;
+  }
+  .lable-text {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-white);
+    padding-bottom: 1.5rem;
+  }
+
+  .radio-tabs:checked + .tabs-lable .arrow-mobile {
+    transform: rotate(-90deg);
+  }
+
+  .tabs-lable .arrow-mobile {
+    display: inline-block;
   }
 }
